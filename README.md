@@ -1,4 +1,5 @@
 #Technische Specificaties
+
 *Deze bijlage geeft een overzicht van de technische specificaties en reikt tools aan om het product snel en kwalitatief te realiseren. In de titels wordt aangegeven welk onderdeel verplicht (**V**) of optioneel (**O**) is.*
 
 
@@ -8,6 +9,13 @@ Bij hyperlinks wordt aangegeven of de info:
 3. beschikbaar is op het intranet via VPN: [**VPN**]
 
 [Voor info types 2 en 3 kan u terecht bij de contactpersoon van Digipolis (zie offertevraag)]
+
+[1. Architectuur](#1. Architectuur) 
+[2. Technologieën](#2.​ Technologieën) 
+[3. Ontwikkeltools](#3. Ontwikkeltools) 
+[4. Testing](#4. Testing) 
+[5. Architectuur](#Architectuur) 
+
 
 ***
 
@@ -70,8 +78,8 @@ Hiervoor dient de AcPaaS logging engine gebruikt te worden:
 - https://privacylogging-app1-a.antwerpen.be/ [**VPN**]
 - https://logging-o.antwerpen.be/ [**VPN**]
 
-##2.​ Technologieën
-###2.1. Algemeen: DaaS
+## 2.​ Technologieën
+### 2.1. Algemeen: DaaS
 Qua technologiekeuzes heeft Digipolis een agile technologische biotoop: Digipolis Antwerpen Application Stack, of kortweg DAAS. Het staat de partner steeds vrij om onze technologische keuzes te challengen, zo lang ze maar voldoen aan de DAAS criteria en we samen een oplossing kunnen vinden voor het onderhoud van de oplossing. Meer info vind je hier: https://goo.gl/HNm92Q [**publiek**].
 
 ###2.2. Frontend
@@ -175,5 +183,5 @@ Optioneel voor nieuwe apps: https://appconfig.antwerpen.be/ [**VPN**]
 Testcoverage: minimum **80%** voor line, branch, statements en functions, automatisch na build.
 ### 4.2. Automatische UI testen (O)
 Testscenario’s worden beschreven via de **Zephyr** module in Jira. Automatische regressietesten kunnen ontwikkeld worden via **Ranorex**.
-## 3. Ontwikkeltools
+## 5. Technische documentatie (**V**)
 API / applicatie documentatie beschikbaar stellen in **readme.md**, **swagger.json**, **changelog.md** formaat, verwijzing naar kibana monitor opnemen.
