@@ -11,9 +11,13 @@ Bij hyperlinks wordt aangegeven of de info:
 [Voor info types 2 en 3 kan u terecht bij de contactpersoon van Digipolis (zie offertevraag)]
 
 [1. Architectuur](#1. Architectuur) 
+
 [2. Technologieën](#2.​ Technologieën) 
+
 [3. Ontwikkeltools](#3. Ontwikkeltools) 
+
 [4. Testing](#4. Testing) 
+
 [5. Architectuur](#Architectuur) 
 
 
