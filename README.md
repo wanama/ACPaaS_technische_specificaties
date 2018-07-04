@@ -12,13 +12,13 @@ Bij hyperlinks wordt aangegeven of de info:
 
 [1. Architectuur](#1-architectuur) 
 
-[2. Technologieën](#2​-technologieën) 
+[2. Technologieën](#2-technologieën) 
 
 [3. Ontwikkeltools](#3-ontwikkeltools) 
 
 [4. Testing](#4-testing) 
 
-[5. Architectuur](#5-technische-documentatie) 
+[5. Architectuur](#5-technische-documentatie-v) 
 
 
 ***
