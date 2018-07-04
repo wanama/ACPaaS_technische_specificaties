@@ -10,15 +10,15 @@ Bij hyperlinks wordt aangegeven of de info:
 
 [Voor info types 2 en 3 kan u terecht bij de contactpersoon van Digipolis (zie offertevraag)]
 
-[1. Architectuur](#1.-Architectuur) 
+[1. Architectuur](#1-architectuur) 
 
-[2. Technologieën](#2.​-Technologieën) 
+[2. Technologieën](#2​-technologieën) 
 
-[3. Ontwikkeltools](#3.-Ontwikkeltools) 
+[3. Ontwikkeltools](#3-ontwikkeltools) 
 
-[4. Testing](#4. Testing) 
+[4. Testing](#4-testing) 
 
-[5. Architectuur](#5.-Technische-documentatie-(**V**)) 
+[5. Architectuur](#5-technische-documentatie) 
 
 
 ***
