@@ -1,4 +1,4 @@
-#Technische Specificaties
+# Technische Specificaties
 
 *Deze bijlage geeft een overzicht van de technische specificaties en reikt tools aan om het product snel en kwalitatief te realiseren. In de titels wordt aangegeven welk onderdeel verplicht (**V**) of optioneel (**O**) is.*
 
