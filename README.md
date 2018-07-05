@@ -32,9 +32,9 @@ Nieuwe componenten en services dienen zo generiek mogelijk te worden ontwikkeld 
 
 Een algemene presentatie met deze architectuurprincipes: https://goo.gl/izTzSH [**publiek**]. 
 
-###1.2. AcPaaS (**V**)
+### 1.2. AcPaaS (**V**)
 
-####1.2.1. Algemeen (V)
+#### 1.2.1. Algemeen (V)
 *Een overkoepelend beleid op het vlak van informatie en ICT gaat de verkokering en versnippering tegen. Binnen dit beleidskader werd een gelaagd model uitgewerkt waarbij hergebruik van een aantal bouwblokken, waaronder de ACPaaS engines en Centrale Referentie Systemen (CRS), verplicht is.*
 
 Deze staan klaar om de totaaloplossing op te bouwen waarbij Digipolis de technische ondersteuning kan geven.
@@ -45,14 +45,14 @@ Een overzicht van alle AcPaaS engines en detailinfo is hier terug te vinden: htt
 
 We zoomen hieronder in op enkele engines:
 
-####1.2.2. API/SDK engine (**V**)
+#### 1.2.2. API/SDK engine (**V**)
 Alle data en functionaliteiten van de oplossing zijn aanspreekbaar en integreerbaar via API’s. Op die manier wordt de innovatieve front-end volledig afgescheiden van de back-end services. De oplossing hergebruikt maximaal de ACPaaS engines en koppelt met de Centrale Referentie Systemen (CRS) als databronnen. **Alle communicatie tussen engines gebeurt steeds via de API/SDK engine.** Elke API wordt aangeboden via de API/SDK engine en dient daartoe in het **Swagger v2** formaat gedefinieerd te worden. 
 
-####1.2.3. A-Profiel en M-Profiel ()
+#### 1.2.3. A-Profiel en M-Profiel ()
 voor gebruikerstoegang en voor het ophalen en opslaan van gebruikersattributen dient het A-profiel (burgers) en M-profiel (medewerkers) te worden hergebruikt. De documentatie voor integratie van de A-profiel en M-profiel login met consent via **oAuth2** is hier terug te vinden: https://goo.gl/7wqo13 [publiek]. Daarnaast is voor het **M**-profiel authenticatie mogelijk via **SAML2** (conform de specificaties).
 
-###1.3. Microservice Architectuur (**V**)
-####1.3.1. Algemeen
+### 1.3. Microservice Architectuur (**V**)
+#### 1.3.1. Algemeen
 Nieuwe functionaliteit wordt steeds gebouwd conform de microservice architectuur principes. Bestaande functionaliteit dient bij aanpassingen of refactor in lijn gebracht te worden met deze principes.
 
 Elke microservice:
@@ -67,13 +67,13 @@ Elke microservice:
 - wordt aangesproken via duidelijk gedefinieerde API’s
 - wordt aangeboden via de API/SDK engine
 
-####1.3.2. Versioning (**V**)
+#### 1.3.2. Versioning (**V**)
 Volgens de semantic versioning principes (http://semver.org/ [**publiek**]). 
-####1.3.3. API Requirements (**V**)
+#### 1.3.3. API Requirements (**V**)
 api design-requirements: https://github.com/digipolisantwerpdocumentation/api-requirements[**publiek**]
-####1.3.4. API monitoring (**V**)
+#### 1.3.4. API monitoring (**V**)
 Status call te voorzien voor elke API, zodat deze kan opgenomen worden de status monitor (https://status-o.antwerpen.be/ [**VPN**]).
-####1.3.5. Logging (**V**)
+#### 1.3.5. Logging (**V**)
 Logging is verplicht te voorzien voor alle cron jobs en voor privacy gevoelige info.
 Hiervoor dient de AcPaaS logging engine gebruikt te worden:
 
@@ -86,7 +86,7 @@ Hiervoor dient de AcPaaS logging engine gebruikt te worden:
 ### 2.1. Algemeen: DaaS
 Qua technologiekeuzes heeft Digipolis een agile technologische biotoop: Digipolis Antwerpen Application Stack, of kortweg DAAS. Het staat de partner steeds vrij om onze technologische keuzes te challengen, zo lang ze maar voldoen aan de DAAS criteria en we samen een oplossing kunnen vinden voor het onderhoud van de oplossing. Meer info vind je hier: https://goo.gl/HNm92Q [**publiek**].
 
-###2.2. Frontend
+### 2.2. Frontend
 #### 2.2.1. Stijlgids (**V**)
 
 Het design dient conform de huisstijlrichtlijnen van de stad Antwerpen te worden uitgevoerd. UX moet beantwoorden aan de bestaande UX-richtlijnen. 
@@ -120,13 +120,13 @@ Verdere specifieke componenten en service libraries moeten door de partner voorz
 Belangrijk: *het staat de partner vrij om een oplossing in een ander front-end framework voor te stellen. De partner is dan wel verplicht om de benodigde front-end componenten op een kwaliteitsvolle manier toe te voegen in de front-end bibliotheek (cfr. technische guidelines zoals hierboven beschreven). Op deze manier zijn deze componenten herbruikbaar voor toekomstige oplossingen. In de onderhandelingen wordt samen bekeken of dit een realistische piste is.*
 
 ### 2.3. Backend
-####2.3.1. Algemeen
+#### 2.3.1. Algemeen
 Binnen DaaS (cfr. 2.1) is voor backend ontwikkeling van nieuwe apps gekozen voor volgende technologieën:
 
 - NodeJS
 - .Net Core
 
-####2.3.2. NodeJS (**V**)
+#### 2.3.2. NodeJS (**V**)
 
 NodeJS apps worden geschreven in het express JS framework.
 
@@ -140,7 +140,7 @@ AStad: Astad-solr, Astad-log, Astad-config (verplicht als je andere packages geb
 
 *Npm-package eslint moet verplicht in de devDependencies staan.*
 
-####2.3.3. .Net Core (**V**)
+#### 2.3.3. .Net Core (**V**)
 
 Voor .net Core zijn er generators voor front- en backend beschikbaar op github.
 
